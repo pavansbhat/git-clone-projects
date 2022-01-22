@@ -1,0 +1,32 @@
+.Not-found-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Not-found-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(36,41,46);
+    height: 91.3vh;
+}
+
+.github-icon{
+    height: 8em;
+    width: 8em;
+    opacity: 1;
+    
+}
+
+.error-msg{
+    font-size: 8em;
+    color: #fff;
+}
+
+.error-msg-1{
+    font-size: 3em;
+    color: #fff;
+}

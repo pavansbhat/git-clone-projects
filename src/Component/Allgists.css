@@ -1,0 +1,179 @@
+.profile-img{
+    display: flex;
+    border-radius: 50%;
+    height: 18em;
+    width: auto;
+    margin: 2.5em;
+}
+
+.profile-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 3em;
+    width: 95vw;
+}
+
+.user-names{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 1.5em;
+    margin-left: 3em;
+    text-align: center;
+    color: rgb(102,102,102);
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+.gists-lists{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    margin: 1em;
+}
+.each-gist{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 2em;
+}
+
+.text-area{
+    width: 60vw;
+    height: 25vh;
+    border-radius: 10px;
+    border: 1px solid rgb(221,221,221);
+}
+.owner-info{
+    margin-top: 0;
+    width: 25vw;
+}
+.all-contents{
+    display: flex;
+    flex-direction: row;
+}
+
+.numer-of-gists{
+    width: 1.5em;
+    border: 0.5px solid rgb(221,221,221);
+    background-color: rgb(232,234,236);
+    border-radius: 50%;
+    text-align: center;
+}
+
+
+.all-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    border-bottom: 0.5px solid rgb(225,228,232);
+    width: 65vw;
+    color: rgb(76,80,83);
+    font-weight: bolder;
+}
+
+.gist-small-header{
+    display: flex;
+    flex-direction: row;
+    width: 5em;
+    color: rgb(27,31,35);
+    font-weight: 600;
+    text-decoration: none solid rgb(27,31,35);
+    border-bottom: 3px solid rgb(241,129,107);
+}
+
+.all-area > p{
+    color: rgb(27,31,35);
+    font-weight: 600;
+    text-decoration: none solid rgb(27,31,35);
+}
+
+.code-square{
+    height: 1.3em;
+    width: 1.1em;
+    margin-left: 2em;
+}
+
+.file-c{
+    color: rgb(88,96,105);
+    font-weight: 400;
+    font-size:small;
+    margin-left: 0.5em;
+}
+
+
+.naming-contents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.icon-image{
+    height: 2em;
+    width: 2em;
+    border-radius: 50%;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.name-gist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 250px;
+    color: rgb(13,102,214);
+    font-weight: 600;
+    vertical-align:baseline;
+    text-align: start;
+
+    width: 60vw;
+    font-family :-apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji"
+}
+
+.gis{
+    margin-left: 0.5em;
+}
+
+.svg-contents{
+    display: flex;
+    flex-direction: row;
+    color: rgb(88,96,105);
+    width: 15vw;
+}
+
+.icon-starred{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-owner{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.user-gist-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: left;
+    line-height: 21px;
+    text-decoration: none solid rgb(3, 102, 214);
+    font-weight:600;
+    color:rgb(3, 102, 214);
+    /* height: 3em; */
+    cursor: pointer;
+}

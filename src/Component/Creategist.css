@@ -1,0 +1,140 @@
+.gist-description{
+    margin-top: 2em;
+    display: flex;
+    width: 60vw;
+    justify-content: center;
+    align-self: center;
+}
+.gist-description{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    width: 60vw;
+    background-color: #fff;
+    align-content: center;
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(250,251,252);
+    border: 0.5px solid lightgray;
+    border-radius: 5px;
+}
+.gist-name{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    width: 20vw;
+    background-color: #fff;
+    justify-content: flex-start;
+    align-content: flex-start;
+    padding: 0px;
+    margin-left: 10px;
+    background-color: rgb(250,251,252);
+    border: 0.5px solid lightgray;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.CodeMirror {
+    height: 38vh;
+}
+
+.gist-name-header{
+    display: flex;
+    height: 3em;
+    background-color: rgb(250,251,252);
+    align-items: center;
+    justify-content: flex-start;
+    border: 0.5px solid lightgray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+
+.new-gist-area{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 1em;
+}
+
+
+ .zina-code-mirror{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    width: 60vw;
+    background-color: #fff;
+    align-content: center;
+    padding: 0px;
+    margin: 0px;
+    height: 300px;
+    border: 0.5px solid lightgray;
+    /* border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; */
+    box-shadow: inset 0 1px 0 rgba(225, 228, 232, 0.2);
+}
+
+.ReactCodeMirror{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    width: 60vw;
+    background-color: #fff;
+    align-content: center;
+    padding: 0px;
+    margin: 0px;
+    border: 0.5px solid lightgray;
+    /* border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; */
+    box-shadow: inset 0 1px 0 rgba(225, 228, 232, 0.2);
+}   
+
+.CodeMirror-scroll{
+    width: 60vw;
+    background-color: #fff;
+    align-content: center;
+    padding: 0px;
+    margin: 0px;
+    height: 300px;
+    border-bottom: 0.5px solid lightgray;
+    box-shadow: inset 0 1px 0 rgba(225, 228, 232, 0.2);
+}
+
+
+
+.gist-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-top: 2em;
+}
+
+.gist-input-header{
+    margin: 0px;
+}
+
+
+
+.drop-down-button-area{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1em;
+}
+
+.btn-primary{
+    background-color: rgb(75,165,80);
+}
+
+.btn-primary:hover{
+    background-color: rgb(75,165,80);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: rgb(75,165,80);
+    border-color: rgb(75,165,80);
+}
+

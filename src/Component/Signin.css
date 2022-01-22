@@ -1,0 +1,82 @@
+.header{
+    display: flex;
+    height: 3em;
+    width: 100%;
+    background-color:rgb(36,41,46);
+    text-align: center;
+    justify-content: center;
+}
+.header-area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.whole-content{
+    display: flex;
+    flex-direction: column;
+    background-color: #2b3137;
+    height: 91.3vh;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+}
+
+.intro-contents{
+    background-color: #2b3137;
+    text-align: start;
+    margin-bottom: 1em;
+    
+}
+
+
+.Signin-here{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    width: 8em;
+    height: 3em;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 1em;
+    background-color: rgb(75,165,80);
+    text-align: center;
+    padding-top: 10px;
+    border: 1px solid #fff;
+}
+
+.Signin-here:hover{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    background-color: rgb(95, 145, 98);
+}
+
+.Para{
+    line-height: 1;
+    font-size: 24px;
+}
+
+
+.drop-down-button-area{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1em;
+}
+
+.btn-primary{
+    background-color: rgb(75,165,80);
+}
+
+.btn-primary:hover{
+    background-color: rgb(75,165,80);
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: rgb(75,165,80);
+    border-color: rgb(75,165,80);
+}
